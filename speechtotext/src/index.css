@@ -1,0 +1,52 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  color: aliceblue;
+  background: linear-gradient(to top right, #c33764 0%, #1d2671 100%);
+  background-attachment: fixed;
+  background-size: cover;
+  height: auto
+}
+
+.mainBody {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+button {
+  width: 150px;
+  text-align: center;
+  font-size: 15px;
+  padding: 8px 15px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+button:hover {
+  background: transparent;
+  transition: 0.6s;
+  color: #fff;
+}
+
+textarea {
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  min-height: 2rem;
+  margin-bottom: 1rem;
+  background: #ff99f724;
+  width: 80%;
+  color: #fff;
+  border-radius: 10px;
+  min-height: 170px;
+}
